@@ -1,0 +1,31 @@
+*{
+    background-image: url("https://media.zicxa.com/1961057");
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    
+   }
+
+/*download the font file, move it to the folder with everything else*/
+   @font-face {
+    font-family: pokemon;
+    src: url(Pokemon-Solid.ttf);}
+
+h1 {
+    font-family: pokemon;
+    font-size: 80px;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#searchBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    font-family: pokemon;
+    letter-spacing: 4px;
+    }  
